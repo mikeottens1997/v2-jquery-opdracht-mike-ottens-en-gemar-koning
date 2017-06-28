@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+</head>
+<body>
+<div class="mainsection" data-role="page" data-theme="b">
+    <div data-position="fixed" data-role="header">
+        <div data-role="navbar">
+            <ul>
+                <li><a data-transition="slide" data-direction="reverse" href="index.html">Home</a></li>
+                <li><a data-transition="slide" data-direction="reverse" href="games.html">Games</a></li>
+                <li><a data-transition="slide" data-direction="reverse" href="order.html">Order</a></li>
+                <li><a data-transition="slide" href="agenda.html">Agenda</a></li>
+                <li><a data-transition="slide" href="location.html">Maps</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div role="main" class="ui-content">
+        <form>
+            <label for="datepicker">Choose your Date</label>
+            <input id="datepicker" type="date" data-role="date" data-inline="true">
+            <label for="textarea-6">Agenda points to remember</label>
+            <textarea cols="40" rows="8" name="textarea-6" id="textarea-6" placeholder="Fill here your agenda point in"></textarea>
+        </form>
+    </div>
+
+</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</html>
