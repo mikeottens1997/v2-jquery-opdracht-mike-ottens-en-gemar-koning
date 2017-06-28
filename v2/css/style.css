@@ -1,0 +1,22 @@
+.container{
+    margin-top:400px;
+}
+
+.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}
+#map-page, #map-canvas { width: 100%; height: 100%; padding: 0; }
+.gm-style {
+    font: 400 11px Roboto, Arial, sans-serif;
+    text-decoration: none;
+}
+.gm-style img { max-width: none; }
+
+.mainsection{
+    background: url("../img/Dirt-4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.maintitle{
+    font-family: Candara;
+    font-size: 50px;
+}

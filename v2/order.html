@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+<div class="mainsection" data-role="page" data-theme="b">
+        <h1 style="text-align: center">games to order</h1>
+
+        <div data-position="fixed" data-role="header">
+            <div data-role="navbar">
+                <ul>
+                    <li><a data-transition="slide" data-direction="reverse" href="index.html">Home</a></li>
+                    <li><a data-transition="slide" data-direction="reverse" href="games.html">Games</a></li>
+                    <li><a data-transition="slide" href="order.html">Order</a></li>
+                    <li><a data-transition="slide" href="agenda.html">Agenda</a></li>
+                    <li><a data-transition="slide" href="location.html">Maps</a></li>
+                </ul>
+            </div>
+        </div>
+
+<div data-role="main" class="ui-content" data-theme="b">
+    <form method="post" action="#">
+        <div class="invoervelden">
+            <label for="fullname">Full name:</label>
+            <input type="text" name="fullname" id="fullname">
+            <label for="bday">Date of Birth:</label>
+            <input type="date" name="bday" id="bday">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Your email..">
+        </div>
+    </form>
+</div>
+
+<div data-role="main" class="ui-content">
+        <form method="post" action="#">
+            <fieldset data-role="controlgroup">
+                <legend>choose a game that you want</legend>
+                <label for="dirt4">dirt 4</label>
+                <input type="checkbox" name="favcolor" id="dirt4" value="Dirt 4">
+                <label for="needforspeed">need for speed 2017</label>
+                <input type="checkbox" name="favcolor" id="needforspeed" value="need for speed">
+                <label for="forzahorizen3">forza horizen 3</label>
+                <input type="checkbox" name="favcolor" id="forzahorizen3" value="forza horizen 3">
+                <label for="arsettocorsa">Arsetto Corsa</label>
+                <input type="checkbox" name="favcolor" id="arsettocorsa" value="arsettocorsa">
+            </fieldset>
+            <input type="submit" data-inline="true" value="order now" action="">
+        </form>
+    </div>
+</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</html>
